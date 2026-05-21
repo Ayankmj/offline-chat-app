@@ -1,0 +1,63 @@
+# OSX
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+ios/.xcode.env.local
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+build/
+.gradle/
+local.properties
+*.log
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+
+# Bundle artifacts
+*.jsbundle
+
+# CocoaPods
+ios/Pods/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Testing
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
