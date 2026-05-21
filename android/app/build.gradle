@@ -19,10 +19,10 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.offlinechatapp"
+    namespace "com.offlinechat"
 
     defaultConfig {
-        applicationId "com.offlinechatapp"
+        applicationId "com.offlinechat"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
