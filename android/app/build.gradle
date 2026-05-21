@@ -2,8 +2,11 @@ apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
 
+project.ext.hermesEnabled = true
+
 react {
     autolinkLibrariesWithApp()
+    hermesEnabled = true
 }
 
 def enableProguardInReleaseBuilds = false
