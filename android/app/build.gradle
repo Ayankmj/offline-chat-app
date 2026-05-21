@@ -70,3 +70,10 @@ android {
 dependencies {
     implementation("com.facebook.react:react-android")
 }
+
+// Skip codegen for @dr.pogodin/react-native-fs (incompatible TypeScript specs)
+tasks.whenTaskAdded { task ->
+    if (task.name.contains('generateCodegenSchemaFromJavaScript') && task.project.name != ':app') {
+        task.enabled = false
+    }
+}
